@@ -9,10 +9,10 @@ const PopUpMenu = ({ isOpen, onClose }) => {
         <button className="absolute top-8 right-4 btn btn-lg btn-square btn-ghost flex-1 pr-2" onClick={onClose}>
           <Image src="/nav-icon-close.svg" priority={true} className="" width={35} height={35} alt="Close Menu Button" />
         </button>
-        <ul className="space-y-8 font-rubik font-semibold text-4xl text-[#202020]">
+        <ul className="space-y-8 font-semibold text-4xl text-[#202020]">
           <li>
             <Link href="/" onClick={onClose}>
-              <span className="text-[#FF8080]">00</span> HOME
+              <span className="text-[#FF8080] font-rubik">00</span> HOME
             </Link>
           </li>
           <li>

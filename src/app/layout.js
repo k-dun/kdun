@@ -1,11 +1,18 @@
 import { Rubik, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const rubik = Rubik({ subsets: ["latin"] });
-const jetbrains = JetBrains_Mono({ subsets: ["latin"] });
+const rubik = Rubik({ 
+  subsets: ["latin"],
+  preload: true,
+ });
+
+const jetbrains = JetBrains_Mono({ 
+  subsets: ["latin"],
+  preload: true, 
+});
 
 export const metadata = {
-  title: "Kdun Dev Portfolio",
+  title: "KDUN - Software Developer Portfolio",
   description: "",
 };
 
