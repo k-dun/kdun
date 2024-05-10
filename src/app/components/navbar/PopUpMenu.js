@@ -12,27 +12,22 @@ const PopUpMenu = ({ isOpen, onClose }) => {
         <ul className="space-y-8 font-semibold text-4xl text-[#202020]">
           <li>
             <Link href="/" onClick={onClose}>
-              <span className="text-[#FF8080] font-rubik">00</span> HOME
-            </Link>
-          </li>
-          <li>
-            <Link href="/#about" onClick={onClose}>
-              <span className="text-[#FF8080]">01</span> ABOUT
+              <span className="text-[#FF8080]">00</span> HOME
             </Link>
           </li>
           <li>
             <Link href="/#projects" onClick={onClose}>
-              <span className="text-[#FF8080]">02</span> PROJECTS
+              <span className="text-[#FF8080]">01</span> PROJECTS
             </Link>
           </li>
           <li>
             <Link href="/#skills" onClick={onClose}>
-              <span className="text-[#FF8080]">03</span> SKILLS
+              <span className="text-[#FF8080]">02</span> SKILLS
             </Link>
           </li>
           <li>
             <Link href="/#contact" onClick={onClose}>
-              <span className="text-[#FF8080]">04</span> CONTACT
+              <span className="text-[#FF8080]">03</span> CONTACT
             </Link>
           </li>
         </ul>
