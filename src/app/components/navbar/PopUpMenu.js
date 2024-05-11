@@ -26,8 +26,13 @@ const PopUpMenu = ({ isOpen, onClose }) => {
             </Link>
           </li>
           <li>
+            <Link href="/#about" onClick={onClose}>
+              <span className="text-[#FF8080]">03</span> ABOUT ME
+            </Link>
+          </li>
+          <li>
             <Link href="/#contact" onClick={onClose}>
-              <span className="text-[#FF8080]">03</span> CONTACT
+              <span className="text-[#FF8080]">04</span> CONTACT
             </Link>
           </li>
         </ul>
