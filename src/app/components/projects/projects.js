@@ -6,7 +6,7 @@ export default function Projects() {
   return (
     <>
       <section id="projects" className="w-[90svw] bg-[#FCFAFF] mx-auto flex flex-col justify-center mt-32 pb-4">
-        <h3 className="w-[50svw] text-xl mb-16"><span className="text-[#FF8080]">01</span> Projects</h3>
+        <h3 className="w-[50svw] text-xl mb-16 font-semibold"><span className="text-[#FF8080]">01</span> Projects</h3>
 
         <div className="w-[90svw] flex flex-col rounded">
           <Image src="/hoodlums.png" className="items-start rounded-t" width={800} height={450} alt="Screenshot of the hoodlums.io" />
