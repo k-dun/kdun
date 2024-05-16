@@ -10,11 +10,10 @@ export default function About() {
         <h4 className="text-lg">
           I always pursue my curiosity. Consuming a variety of tech related blogs and podcasts 
           combined with my long love of problem solving has eventually led me to finally leave 
-          retail. Finally I joined and subsequently graduated from the Makers Academy software 
-          development bootcamp.<br /><br />
-          I am now looking for my first job in tech. I want to be proud of where I work above 
-          all else. It's of utmost importance to me for the company's values and mine to 
-          align.
+          retail. <br /><br />
+          Finally, I joined and subsequently graduated from the Makers Academy software development 
+          bootcamp. I am now looking for my first job in tech!<br /><br /> 
+  
         </h4>
       </section>
     </>

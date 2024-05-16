@@ -10,10 +10,14 @@ export default function Projects() {
 
         <div className="w-[90svw] flex flex-col rounded">
           <Image src="/hoodlums.png" className="items-start rounded-t" width={800} height={450} alt="Screenshot of the hoodlums.io" />
-          <p className="font-semibold text-xl px-3 py-4">Hoodlums</p>
+          <p className="font-semibold text-xl px-2 py-4">Hoodlums</p>
           <p className="text-lg px-3 py-5">Website for the digital art project: Hoodlums.</p>
-          <p className="text-lg px-3"><span className="font-semibold">Tech: </span> 
-            Next.js, React, Javascript, TailwindCSS.</p>
+          <p className="w-[90svw] px-3 flex flex-wrap ">
+            <span className="bg-[#202020] text-[#FCFAFF] text-sm rounded-2xl px-5 py-1.5 mx-1 my-1">Next.js</span>
+            <span className="bg-[#202020] text-[#FCFAFF] text-sm rounded-2xl px-5 py-1.5 mx-1 my-1">Javascript</span> 
+            <span className="bg-[#202020] text-[#FCFAFF] text-sm rounded-2xl px-5 py-1.5 mx-1 my-1">React</span>
+            <span className="bg-[#202020] text-[#FCFAFF] text-sm rounded-2xl px-5 py-1.5 mx-1 my-1">TailwindCSS</span>
+          </p>
           <div className="w-full flex flex-row py-8 pr-8 pl-3 justify-around">
             <Link href="https://github.com/k-dun/hoodlumsNFT" target="_blank">
               <button className="w-[38svw] font-semibold text-[#202020] bg-[#FCFAFF] text-base px-5 py-3 rounded-md border border-[#202020] flex flex-row justify-center mr-3">

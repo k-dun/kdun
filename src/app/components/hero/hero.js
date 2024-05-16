@@ -6,14 +6,27 @@ export default function Hero() {
   return (
     <>
       <section className="h-[88svh] w-full flex flex-col items-center bg-[#FCFAFF] pt-[12svh]">
-        <div className="w-[85svw] pt-8">
+        <div className="w-[75svw] pt-8">
           <Image src="/hero-image.png" className="" alt="Hero image - kdun's picture with a sign 'Dev for hire'" width={1500} height={1500} priority={true} />
         </div>
         <div className="w-[90svw] pt-8 flex flex-col items-center justify-center">
-          <h2 className="text-2xl font-semibold">Software Developer</h2>
-          <hr className="w-[80svw] h-[2px] mt-3 mb-5 border-0 rounded bg-[#FF8080]" />
-          <h1 className="w-[90svw] text-lg"><span className="text-[#FF8080]">00</span> My name is Konrad and I'm a frontend engineer based in London. I am
-            passionate about UI/UX, web design and all things tech.</h1>
+          <div className="flex flex-row justify-center items-center">
+            <Link href="mailto:konrad.dunski@gmail.com" target="_blank">
+              <Image src="./email-icon.svg" width="25" height="25" alt="Email Icon" className="mx-3" />
+            </Link>
+            <Link href="https://www.github.com/k-dun" target="_blank">
+              <Image src="./github-icon.svg" width="27" height="27" alt="Github Icon" className="mx-3" />
+            </Link>
+            <Link href="https://www.linkedin.com/in/kdunski" target="_blank">
+              <Image src="./linkedin-icon.svg" width="25" height="25" alt="LinkedIn Icon" className="mx-3" />
+            </Link>
+            <Link href="https://twitter.com/kdun_dev" target="_blank">
+              <Image src="./twitter-icon.svg" width="22" height="22" alt="Twitter Icon" className="mx-3" />
+            </Link>
+          </div>
+          <h1 className="w-[90svw] text-lg pt-8"><span className="text-[#FF8080]">00</span> My name is 
+            Konrad and I'm a frontend engineer based in London. I am passionate about UI/UX, web 
+            design, SaaS and all things tech.</h1>
           <div className="w-[90svw] flex flex-row pt-4">
             <Link href="/#about">
               <button className="w-[42svw] font-semibold text-[#202020] bg-[#FCFAFF] text-base px-5 py-3 rounded-md border border-[#202020] flex flex-row justify-center mr-3">
