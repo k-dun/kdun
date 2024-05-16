@@ -3,7 +3,7 @@ export default function Skills() {
   return (
     <>
       <section id="skills" className="w-[90svw] bg-[#FCFAFF] mx-auto flex flex-col justify-center mt-32 pb-4">
-        <h3 className="w-[50svw] text-xl mb-16"><span className="text-[#FF8080]">02.1</span> Tech Skills</h3>
+        <h3 className="w-[50svw] text-xl mb-16"><span className="text-[#FF8080]">02.1</span> TECH SKILLS</h3>
 
 	      <div className="grid w-full divide-y divide-[#FF8080] mx-auto">
 		      <div className="py-5">
@@ -63,7 +63,7 @@ export default function Skills() {
 		      </div>
         </div>
 
-        <h3 className="w-[50svw] text-xl my-16"><span className="text-[#FF8080]">02.2</span> Soft Skills</h3>
+        <h3 className="w-[50svw] text-xl my-16"><span className="text-[#FF8080]">02.2</span> SOFT SKILLS</h3>
 
         <div className="grid w-full divide-y divide-[#FF8080] mx-auto">
 		      <div className="py-5">

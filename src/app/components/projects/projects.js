@@ -6,13 +6,13 @@ export default function Projects() {
   return (
     <>
       <section id="projects" className="w-[90svw] bg-[#FCFAFF] mx-auto flex flex-col justify-center mt-32 pb-4">
-        <h3 className="w-[50svw] text-xl mb-16 font-semibold"><span className="text-[#FF8080]">01</span> Projects</h3>
+        <h3 className="w-[50svw] text-xl mb-16 font-semibold"><span className="text-[#FF8080]">01</span> PROJECTS</h3>
 
         <div className="w-[90svw] flex flex-col rounded">
           <Image src="/hoodlums.png" className="items-start rounded-t" width={800} height={450} alt="Screenshot of the hoodlums.io" />
-          <p className="font-semibold text-xl px-2 py-4">Hoodlums</p>
+          <p className="font-semibold text-xl px-3 py-4">Hoodlums</p>
           <p className="text-lg px-3 py-5">Website for the digital art project: Hoodlums.</p>
-          <p className="w-[90svw] px-3 flex flex-wrap ">
+          <p className="px-3 flex flex-wrap ">
             <span className="bg-[#202020] text-[#FCFAFF] text-sm rounded-2xl px-5 py-1.5 mx-1 my-1">Next.js</span>
             <span className="bg-[#202020] text-[#FCFAFF] text-sm rounded-2xl px-5 py-1.5 mx-1 my-1">Javascript</span> 
             <span className="bg-[#202020] text-[#FCFAFF] text-sm rounded-2xl px-5 py-1.5 mx-1 my-1">React</span>
