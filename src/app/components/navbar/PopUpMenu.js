@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const PopUpMenu = ({ isOpen, onClose }) => {
   return isOpen ? (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#FCFAFF]">
+    <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-[#FCFAFF]">
       <div className="text-center">
         <button className="absolute top-8 right-4 btn btn-lg btn-square btn-ghost flex-1 pr-2" onClick={onClose}>
           <Image src="/nav-icon-close.svg" priority={true} className="" width={35} height={35} alt="Close Menu Button" />
@@ -36,7 +36,7 @@ const PopUpMenu = ({ isOpen, onClose }) => {
             </Link>
           </li>
         </ul>
-      </div>
+      </div>  
     </div>
   ) : null;
 };

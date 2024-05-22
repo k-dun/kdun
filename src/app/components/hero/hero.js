@@ -10,7 +10,8 @@ export default function Hero() {
           <Image src="/hero-image.png" className="" alt="Hero image - kdun's picture with a sign 'Dev for hire'" width={1500} height={1500} priority={true} />
         </div>
         <div className="w-[90svw] pt-12 flex flex-col items-center justify-center">
-          <h1 className="w-[90svw] text-lg pt-12"><span className="text-[#FF8080]">00</span> My name is 
+          <h2 className="w-[90svw] text-xl text-center font-semibold">FRONTEND DEVELOPER</h2>
+          <h1 className="w-[90svw] text-lg pt-6"><span className="text-[#FF8080]">00</span> My name is 
             Konrad and I'm a frontend engineer based in London. I am passionate about UI/UX, web 
             design, SaaS and all things tech.</h1>
           <div className="w-[90svw] flex flex-row pt-4">
