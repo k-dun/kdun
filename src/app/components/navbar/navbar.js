@@ -20,7 +20,7 @@ export default function Navbar() {
           </Link>
         </div>
         
-        <div className="flex w-[64svw] justify-end items-center">
+        <div className="flex w-[67svw] justify-end items-center">
           <div className="flex justify-end items-center">
             <div className="flex flex-row">
               
