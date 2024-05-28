@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <>
       <section id="contact" className="w-[90svw] bg-[#FCFAFF] mx-auto flex flex-col justify-center mt-32 pb-4">
-        <h3 className="w-[50svw] text-xl mb-8 font-semibold"><span className="text-[#FF8080]">04</span> CONTACT</h3>
+        <h3 className="w-[50svw] text-xl md:text-2xl mb-8 font-semibold"><span className="text-[#FF8080]">04</span> CONTACT</h3>
         
         <div className="w-full flex flex-col py-14 items-center">
           <Link href="mailto:hi@kdun.dev"><p className="text-center text-2xl text-[#202020] mb-2">hi<span className="text-[#FF8080] mx-1">@</span>kdun.dev</p></Link>

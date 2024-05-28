@@ -2,10 +2,10 @@ export default function Skills() {
 
   return (
     <>
-      <section id="skills" className="w-[90svw] bg-[#FCFAFF] mx-auto flex flex-col justify-center pt-[12svh] pb-4">
-        <h3 className="w-[50svw] text-xl mb-12 font-semibold"><span className="text-[#FF8080]">02.1</span> TECH SKILLS</h3>
+      <section id="skills" className="w-[90svw] md:w-[75vw] bg-[#FCFAFF] mx-auto flex flex-col justify-center pt-[12svh] pb-4">
+        <h3 className="w-full md:self-start text-xl md:text-2xl mb-12 font-semibold"><span className="text-[#FF8080]">02.1</span> TECH SKILLS</h3>
 
-	      <div className="grid w-full divide-y divide-[#FF8080] mx-auto">
+	      <div className="grid w-full md:w-[75vw] divide-y divide-[#FF8080] mx-auto">
 		      <div className="py-5">
 			      <details className="group">
 				      <summary className="flex justify-between items-center cursor-pointer list-none">
@@ -63,7 +63,7 @@ export default function Skills() {
 		      </div>
         </div>
 
-        <h3 className="w-[50svw] text-xl my-12 font-semibold"><span className="text-[#FF8080]">02.2</span> SOFT SKILLS</h3>
+        <h3 className="w-[50svw] text-xl md:text-2xl my-12 font-semibold"><span className="text-[#FF8080]">02.2</span> SOFT SKILLS</h3>
 
         <div className="grid w-full divide-y divide-[#FF8080] mx-auto">
 		      <div className="py-5">
