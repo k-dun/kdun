@@ -3,13 +3,13 @@ import Link from 'next/link';
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="w-[90svw] flex flex-col rounded mt-12">
+    <div className="w-[90svw] flex flex-col rounded">
       <Image src={project.imageUrl} className="items-start rounded-t" width={800} height={450} alt={project.title} />
       <p className="font-semibold text-xl px-3 py-4">{project.title}</p>
       <p className="text-lg px-3 py-5">{project.description}</p>
-      <p className="px-3 flex flex-wrap">
+      <p className="px-2 flex flex-wrap">
         {project.tech.map((tech, index) => (
-          <span key={index} className="bg-[#202020] text-[#FCFAFF] text-sm rounded-2xl px-5 py-1.5 mx-1 my-1">
+          <span key={index} className="bg-[#202020] text-[#FCFAFF] text-sm rounded-2xl px-6 py-1.5 mx-1 my-1">
             {tech}
           </span>
         ))}

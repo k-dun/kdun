@@ -5,12 +5,13 @@ export default function Contact() {
 
   return (
     <>
-      <section id="projects" className="w-[90svw] bg-[#FCFAFF] mx-auto flex flex-col justify-center mt-32 pb-4">
-        <h3 className="w-[50svw] text-xl mb-8"><span className="text-[#FF8080]">04</span> CONTACT</h3>
+      <section id="contact" className="w-[90svw] bg-[#FCFAFF] mx-auto flex flex-col justify-center mt-32 pb-4">
+        <h3 className="w-[50svw] text-xl mb-8 font-semibold"><span className="text-[#FF8080]">04</span> CONTACT</h3>
         
-        <div className="w-full flex flex-col pt-14 items-center">
-          <Link href="mailto:hi@kdun.dev"><p className="text-center text-2xl text-[#202020] mb-6">hi<span className="text-[#FF8080] mx-1">@</span>kdun.dev</p></Link>
-          <div className="flex flex-row justify-center items-center pt-12">
+        <div className="w-full flex flex-col py-14 items-center">
+          <Link href="mailto:hi@kdun.dev"><p className="text-center text-2xl text-[#202020] mb-2">hi<span className="text-[#FF8080] mx-1">@</span>kdun.dev</p></Link>
+          <hr className="w-[50svw] h-0.5 bg-[#FF8080] border-0" />
+          <div className="flex flex-row justify-center items-center mt-2">
             <Link href="https://www.github.com/k-dun" target="_blank">
               <Image src="./github-icon.svg" width="27" height="27" alt="Github Icon" className="mx-3" />
             </Link>
