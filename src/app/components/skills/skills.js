@@ -2,10 +2,10 @@ export default function Skills() {
 
   return (
     <>
-      <section id="skills" className="w-[90svw] md:w-[75vw] bg-[#FCFAFF] mx-auto flex flex-col justify-center pt-[12svh] pb-4">
+      <section id="skills" className="w-[90svw] md:w-[70vw] bg-[#FCFAFF] mx-auto flex flex-col justify-center pt-[12svh] pb-4">
         <h3 className="w-full md:self-start text-xl md:text-2xl mb-12 font-semibold"><span className="text-[#FF8080]">02.1</span> TECH SKILLS</h3>
 
-	      <div className="grid w-full md:w-[75vw] divide-y divide-[#FF8080] mx-auto">
+	      <div className="grid w-full md:w-[70vw] divide-y divide-[#FF8080] mx-auto">
 		      <div className="py-5">
 			      <details className="group">
 				      <summary className="flex justify-between items-center cursor-pointer list-none">

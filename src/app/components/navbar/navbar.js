@@ -16,15 +16,15 @@ export default function Navbar() {
       <div className="navbar fixed top-0 flex flex-row w-full h-[12svh] bg-[#FCFAFF]">
         <div className="flex w-[33svw] justify-start items-center">
           <Link href="/">
-            <Image src="/kdun-logo.svg" priority={true} className="absolute top-8 left-4 pl-3 w-40" width={400} height={100} alt="Kdun Logo" />
+            <Image src="/kdun-logo.svg" priority={true} className="absolute top-8 left-4 pl-3 w-40 lg:w-52" width={400} height={100} alt="Kdun Logo" />
           </Link>
         </div>
         
         <div className="flex w-[67svw] justify-end items-center">
           <div className="flex items-center">
             {!menuOpen && (
-              <button className="absolute top-8 right-4 btn btn-lg btn-square btn-ghost flex-1 pr-2" onClick={() => toggleMenu()}>
-                <Image src="/nav-icon.svg" priority={true} className="" width={35} height={35} alt="Open Menu Button" />
+              <button className="absolute top-8 right-4 btn btn-lg btn-square btn-ghost flex-1 pr-3" onClick={() => toggleMenu()}>
+                <Image src="/nav-icon.svg" priority={true} className="lg:w-16" width={35} height={35} alt="Open Menu Button" />
               </button>
             )}
             
