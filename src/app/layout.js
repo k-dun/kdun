@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body className={`${rubik.className} ${jetbrains.className}`}>{children}</body>
+      <body className={`${rubik.className} ${jetbrains.className}`} id="bodyContainer">{children}</body>
     </html>
   );
 }

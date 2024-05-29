@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="w-[90svw] md:w-[70vw] lg:w-full lg:flex-row flex flex-col rounded pt-6">
-      <Image src={project.imageUrl} className="items-start rounded-t md:rounded-md md:w-[70vw] lg:w-[50vw]" width={800} height={450} alt={project.title} />
+    <div className="w-[90svw] md:w-[70vw] lg:w-[100vw] lg:flex-row flex flex-col rounded pt-6 lg:pt-10">
+      <Image src={project.imageUrl} className="items-start rounded-t md:rounded-md md:w-[70vw]" width={800} height={450} alt={project.title} />
       <div className="lg:flex lg:flex-col lg:mr-32">
         <p className="font-semibold text-xl md:text-2xl px-3 md:px-0 lg:pl-6 pt-6">{project.title}</p>
         <p className="text-lg md:text-xl px-3 md:px-0 lg:pl-6 py-5 lg:mr-32 lg:flex-wrap">{project.description}</p>

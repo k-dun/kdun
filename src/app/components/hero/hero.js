@@ -5,8 +5,8 @@ export default function Hero() {
 
   return (
     <>
-      <section className="min-h-[88svh] w-full flex flex-col lg:flex-row-reverse pt-[12svh] items-center bg-[#FCFAFF]">
-        <div className="w-[75svw] md:w-[60vw] lg:w-[50vw] pt-8 lg:pt-12 lg:pr-10">
+      <section className="min-h-[88svh] w-[100vw] flex flex-col lg:flex-row-reverse pt-[12svh] items-center bg-[#FCFAFF]">
+        <div className="w-[75svw] md:w-[60vw] lg:w-[50vw] pt-8 lg:pt-12">
           <Image src="/hero-image.png" className="" alt="Hero image - kdun's picture with a sign 'Dev for hire'" width={1500} height={1500} priority={true} />
         </div>
         <div className="w-[90svw] md:w-[70vw] lg:w-[50vw] pt-12 md:pt-16 lg:ml-32 flex flex-col items-center justify-center">
