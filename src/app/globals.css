@@ -8,3 +8,9 @@
   padding: 0;
   scroll-behavior: smooth;
 }
+
+#bodyContainer {
+  max-width: 2200px;
+  margin-left: auto;
+  margin-right: auto;
+}
