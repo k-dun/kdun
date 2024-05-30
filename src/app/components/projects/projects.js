@@ -25,7 +25,7 @@ export default function Projects() {
 
   return (
     <>
-      <section id="projects" className="w-[90svw] md:w-[70vw] lg:w-full lg:px-40 lg:mx-auto bg-[#FCFAFF] mx-auto pt-[12svh] flex flex-col justify-center items-center pb-4">
+      <section id="projects" className="w-[90svw] md:w-[70vw] lg:w-full lg:px-36 lg:mx-auto bg-[#FCFAFF] mx-auto pt-[12svh] flex flex-col justify-center items-center pb-4">
         <h3 className="text-xl self-start md:text-2xl lg:text-3xl mb-10 font-semibold"><span className="text-[#FF8080]">01</span> PROJECTS</h3>
 
         {projects.map((project, index) => (
