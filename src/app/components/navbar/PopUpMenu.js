@@ -7,7 +7,7 @@ const PopUpMenu = ({ isOpen, onClose }) => {
     <div className="fixed inset-0 z-50 w-full max-w-[2200px] flex flex-col items-center justify-center bg-[#FCFAFF]">
         
       <button className="absolute top-8 right-4 btn btn-lg btn-square btn-ghost flex-1 pr-2" onClick={onClose}>
-        <Image src="/nav-icon-close.svg" priority={true} className="lg:w-12 xl:w-16" width={35} height={35} alt="Close Menu Button" />
+        <Image src="/nav-icon-close.svg" priority={true} className="lg:w-12" width={35} height={35} alt="Close Menu Button" />
       </button>
 
       <ul className="space-y-8 font-semibold text-4xl text-[#202020]">
