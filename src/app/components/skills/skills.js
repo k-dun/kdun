@@ -109,7 +109,7 @@ export default function Skills() {
                 </summary>
                 <p className="text-[#505050] text-base md:text-lg lg:text-xl mt-5">
                   I have successfully led teams for 12+ years of my professional career. <br /><br /> 
-                  It helped me hone my abilities in assessing people's strengths and motivating 
+                  It helped me hone my abilities in assessing people&apos;s strengths and motivating 
                   diverse groups towards common goals.
                 </p>
               </details>
@@ -125,8 +125,8 @@ export default function Skills() {
                 </summary>
                 <p className="text-[#505050] text-base md:text-lg lg:text-xl mt-5">
                   I have strong bias to action and I am always ready to adapt or pivot. <br /><br />
-                  Tech's ever-changing landscape with its constant need for learning new frameworks 
-                  and adjusting one's strategies is very in line with my strengths.
+                  Tech&apos;s ever-changing landscape with its constant need for learning new frameworks 
+                  and adjusting one&apos;s strategies is very in line with my strengths.
                 </p>
               </details>
             </div>
@@ -140,10 +140,10 @@ export default function Skills() {
                   </span>
                 </summary>
                 <p className="text-[#505050] text-base md:text-lg lg:text-xl mt-5">
-                  One of the main reasons I decided to transition into tech is my love for problem solving. <br /><br />
+                  One of the main reasons I decided to transition into tech is my love for problem solving.<br /><br />
                   Whether it was logistics and management in my previous line of work, coding challenges 
                   and dealing with persistent errors now, or cryptographic riddles I was obsessed with as a 
-                  teenager. <br /><br />
+                  teenager.<br /><br />
                   Thanks to my innate curiosity and resilience, I found that the process itself always 
                   brings me enormous satisfaction.
                 </p>
@@ -163,7 +163,7 @@ export default function Skills() {
                   My extrovert qualities and sense of humour make me a great team-player. I make 
                   everyone feel safe and heard in my presence. <br /><br />
                   The introvert side gives me great introspection skills, always allowing me to adapt 
-                  and do what's necessary to solve whatever problem I'm presented with.<br /><br />
+                  and do what is necessary to solve whatever problem I am presented with.<br /><br />
                   Both those combined help me find compromise where needed, as well as strength and 
                   assertiveness where necessary.
                 </p>
