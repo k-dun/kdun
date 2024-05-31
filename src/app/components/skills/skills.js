@@ -2,9 +2,9 @@ export default function Skills() {
 
   return (
     <>
-      <section id="skills" className="w-[90svw] md:w-[70vw] lg:w-full bg-[#FCFAFF] flex flex-col lg:flex-row mx-auto justify-center lg:justify-start lg:mx-auto lg:px-36 pt-[12svh] pb-4">
+      <section id="skills" className="w-[90svw] md:w-[70vw] lg:w-full bg-[#FCFAFF] flex flex-col lg:flex-row mx-auto justify-center lg:justify-start lg:mx-auto lg:px-36 pt-[14vh] pb-4">
         <div className="lg:flex lg:flex-col lg:w-[40%] lg:mr-24">
-          <h3 className="w-full md:self-start text-xl md:text-2xl lg:text-3xl mb-12 font-semibold"><span className="text-[#FF8080]">02.1</span> TECH SKILLS</h3>
+          <h3 className="w-full md:self-start text-xl md:text-2xl mb-12 font-semibold"><span className="text-[#FF8080]">02.1</span> TECH SKILLS</h3>
 
           <div className="grid w-full md:w-[70vw] lg:w-full divide-y divide-[#FF8080] mx-auto">
             <div className="py-5">
