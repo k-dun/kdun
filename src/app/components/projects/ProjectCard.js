@@ -20,7 +20,7 @@ const ProjectCard = ({ project }) => {
             <button className="w-[38svw] md:w-[26vw] lg:w-[12vw] font-semibold text-[#202020] bg-[#FCFAFF] text-base md:text-lg px-5 py-3 rounded-md border border-[#202020] justify-center mr-2 md:mr-4">Code</button>
           </Link>
           <Link href={project.liveUrl} target="_blank">
-            <button className="w-[38svw] md:w-[26vw] lg:w-[12vw] font-semibold text-[#202020] bg-[#FCFAFF] text-base md:text-lg px-5 py-3 rounded-md border border-[#FF8080] flex flex-row justify-center">Link</button>
+            <button className="w-[38svw] md:w-[26vw] lg:w-[12vw] font-semibold text-[#202020] bg-[#FCFAFF] text-base md:text-lg px-5 py-3 rounded-md border border-[#FF8080] flex flex-row justify-center">Live</button>
           </Link>
         </div>
       </div>
