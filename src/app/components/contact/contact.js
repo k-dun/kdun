@@ -12,13 +12,13 @@ export default function Contact() {
           <Link href="mailto:hi@kdun.dev"><p className="text-center text-2xl md:text-4xl text-[#202020]">hi<span className="text-[#FF8080] mx-1">@</span>kdun.dev</p></Link>
           <div className="flex flex-row items-center self-center mt-8">
             <Link href="https://www.github.com/k-dun" target="_blank">
-              <Image src="./github-icon.svg" width="27" height="27" alt="Github Icon" className="mx-4" />
+              <Image src="./github-icon.svg" width="27" height="27" alt="Github Icon" className="mx-4 w-7 hover:w-8" />
             </Link>
             <Link href="https://www.linkedin.com/in/kdunski" target="_blank">
-              <Image src="./linkedin-icon.svg" width="25" height="25" alt="LinkedIn Icon" className="mx-4" />
+              <Image src="./linkedin-icon.svg" width="25" height="25" alt="LinkedIn Icon" className="mx-4 w-7 hover:w-8" />
             </Link>
             <Link href="https://twitter.com/kdun_dev" target="_blank">
-              <Image src="./twitter-icon.svg" width="22" height="22" alt="Twitter Icon" className="mx-4" />
+              <Image src="./twitter-icon.svg" width="22" height="22" alt="Twitter Icon" className="mx-4 w-7 hover:w-8" />
             </Link>
           </div>
         </div>
