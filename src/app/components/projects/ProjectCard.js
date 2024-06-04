@@ -15,8 +15,8 @@ const ProjectCard = ({ project }) => {
             </span>
           ))}
         </p>
-        <div className="w-full flex flex-row py-8 pr-8 pl-3 md:pl-0 justify-around md:justify-start">
-          <Link href={project.codeUrl} target="_blank">
+        <div className="w-full flex flex-row py-8 pr-8 pl-3 md:pl-0 justify-start">
+          <Link href={project.codeUrl} target="_blank" className="">
             <button className="w-[38svw] md:w-[26vw] lg:w-[12vw] font-semibold text-[#202020] bg-[#FCFAFF] shadow-md hover:shadow-xl text-base px-5 py-3 rounded-md border border-[#202020] mr-2 md:mr-4">Code</button>
           </Link>
           {project.liveUrl && project.liveUrl.trim() !== "" && (

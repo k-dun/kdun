@@ -9,7 +9,7 @@ export default function About() {
             I always pursue my curiosity. Consuming a variety of tech related blogs and podcasts, 
             combined with my long love of problem solving, has eventually led me to finally leave my 12-year long 
             retail management career. Finally, I joined and subsequently graduated from the <span className="text-[#FF8080] inline">Makers Academy</span> software development bootcamp.
-          </div><br />
+          </div><br /><br />
           In just 3 months, I have learned the foundations of modern web development technologies and got to 
           team up on building 3 full-stack web apps. The latter has proven especially beneficial, because it allowed me to learn 
           how to navigate working as a part of a team on the whole process of software development. From project management and 
