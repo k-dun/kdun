@@ -11,7 +11,7 @@ export default function Hero() {
         </div>
         <div className="w-[90svw] md:w-[70vw] lg:w-[50vw] pt-12 md:pt-16 lg:pt-18 flex flex-col items-center justify-center">
           <h2 className="w-[90svw] md:w-[70vw] lg:w-[40vw] text-2xl md:text-3xl lg:text-4xl text-center lg:text-left font-semibold">FRONTEND DEVELOPER</h2>
-          <h1 className="w-[90svw] md:w-[70vw] lg:w-[40vw] text-lg md:text-xl mt-8 lg:mt-10"><span className="text-[#FF8080]">00 </span>
+          <h1 className="w-[90svw] md:w-[70vw] lg:w-[40vw] text-lg md:text-xl mt-8 lg:mt-8"><span className="text-[#FF8080]">00 </span>
             My name is Konrad and I am a frontend engineer based in London. I am passionate about UI/UX, web 
             design, startups and all things tech.</h1>
           <div className="w-[90svw] md:w-[70vw] lg:w-[40vw] flex flex-row pt-4 md:pt-6">
