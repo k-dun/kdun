@@ -9,7 +9,7 @@ export default function Projects() {
       tech: ['Next.js', 'Typescript', 'React', 'TailwindCSS', 'Node.js', 'js-cookie', 'OMDb API'],
       imageUrl: '/filmue-1000-550.png',
       codeUrl: 'https://github.com/k-dun/filmue',
-      liveUrl: '',
+      liveUrl: 'https://filmue.vercel.app/',
     },
     {
       title: 'Hoodlums',
