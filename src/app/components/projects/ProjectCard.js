@@ -17,12 +17,14 @@ const ProjectCard = ({ project }) => {
         </p>
         <div className="w-full flex flex-row py-8 pr-8 pl-3 md:pl-0 justify-start">
           <Link href={project.codeUrl} target="_blank" className="">
-            <button className="w-[38svw] md:w-[26vw] lg:w-[12vw] font-semibold text-[#202020] bg-[#FCFAFF] shadow-md hover:shadow-xl text-base px-5 py-3 rounded-md border border-[#202020] mr-2 md:mr-4">Code</button>
+            <button className="w-[42svw] md:w-[26vw] lg:w-[14vw] font-semibold text-[#202020] bg-[#FCFAFF] text-base px-5 py-3 rounded-md border border-[#202020] shadow-md hover:shadow-xl mr-2 flex flex-row justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-code"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg><span className="pl-2 bg-[#FCFAFF]">Code</span>
+            </button>
           </Link>
           {project.liveUrl && project.liveUrl.trim() !== "" && (
             <Link href={project.liveUrl} target="_blank">
-              <button className="w-[38svw] md:w-[26vw] lg:w-[12vw] font-semibold text-[#202020] bg-[#F4B7AA] shadow-md hover:shadow-xl text-base px-5 py-3 rounded-md border border-[#202020]">
-                Live
+              <button className="w-[42svw] md:w-[26vw] lg:w-[14vw] font-semibold text-[#202020] bg-[#F4B7AA] text-base px-5 py-3 rounded-md border border-[#202020] shadow-md hover:shadow-xl mr-2 flex flex-row justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-app-window bg-[#F4B7AA]"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M10 4v4"/><path d="M2 8h20"/><path d="M6 4v4"/></svg><span className="pl-2 bg-[#F4B7AA]">Live</span>
               </button>
             </Link>
           )}

@@ -11,10 +11,10 @@ import Footer from './components/footer/footer';
 export default function Home() {
   return (
     <>
-      <header>
+      <header className="relative z-50">
         <Navbar />
       </header>
-      <main>
+      <main className="relative z-40">
         <Hero />
         <Projects />
         <Skills />
