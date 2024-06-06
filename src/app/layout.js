@@ -12,7 +12,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "KDUN - Software Developer Portfolio",
+  title: "Konrad Dunski - Software Developer Portfolio",
   description: "",
 };
 
