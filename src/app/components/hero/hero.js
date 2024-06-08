@@ -5,7 +5,7 @@ export default function Hero() {
 
   return (
     <>
-      <section className="min-h-[88svh] w-[100vw] lg:w-full lg:px-32 flex flex-col lg:flex-row-reverse pt-[12svh] items-center bg-[#FCFAFF]">
+      <section className="min-h-[88svh] w-[100vw] lg:w-full lg:px-32 flex flex-col lg:flex-row-reverse pt-[12svh] items-center bg-[#FCFAFF]" id="hero">
         <div className="w-[65svw] md:w-[60vw] lg:w-[50vw] xl:w-[40vw] pt-8 lg:pt-12">
           <Image src="/hero-image.png" className="" alt="Hero image - kdun's picture with a sign 'Dev for hire'" width={1500} height={1500} priority={true} />
         </div>

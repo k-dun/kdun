@@ -12,7 +12,7 @@ const PopUpMenu = ({ isOpen, onClose }) => {
 
       <ul className="space-y-8 font-semibold text-4xl text-[#202020]">
         <li>
-          <Link href="/" onClick={onClose} className="hover:border-b-2 border-b-[#FF8080]">
+          <Link href="/#hero" onClick={onClose} className="hover:border-b-2 border-b-[#FF8080]">
             <span className="text-[#FF8080]">00</span> HOME
           </Link>
         </li>
