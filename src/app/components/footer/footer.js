@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
     <>
-      <section className="w-full h-[10vh] lg:w-full lg:justify-center flex flex-col bg-[#FCFAFF] pt-6 pb-4 px-6">
+      <section className="w-full h-[15vh] lg:w-full lg:justify-center flex flex-col bg-[#FCFAFF] pt-6 pb-4 px-6">
         <div className="flex flex-row items-center self-center pb-3">
           <Link href="https://www.github.com/k-dun" target="_blank">
             <Image src="./github-icon.svg" width="27" height="27" alt="Github Icon" className="mx-4 w-7 hover:w-8" />
