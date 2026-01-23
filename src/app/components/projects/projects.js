@@ -4,12 +4,12 @@ export default function Projects() {
 
   const projects = [
     {
-      title: 'GH-Streaks',
-      description: 'Movie quiz web app for film buffs.',
-      tech: ['Next.js', 'Typescript', 'React', 'TailwindCSS', 'Node.js', 'js-cookie', 'OMDb API'],
-      imageUrl: '/filmue-1000-550.png',
-      codeUrl: 'https://github.com/k-dun/filmue',
-      liveUrl: 'https://www.filmue.vercel.app/',
+      title: 'Github-Streak',
+      description: 'A Chrome extension that displays your recent GitHub contribution activity and current streak on (almost) every webpage you visit.',
+      tech: ['Javascript', 'CSS', 'DOM Manipulation'],
+      imageUrl: '/gh-streak-screenshot.png',
+      codeUrl: 'https://github.com/k-dun/GH-Streak',
+      liveUrl: '',
     },
     {
       title: 'Filmue',
