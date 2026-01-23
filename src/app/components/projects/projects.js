@@ -12,12 +12,12 @@ export default function Projects() {
       liveUrl: '',
     },
     {
-      title: 'Filmue',
-      description: 'Movie quiz web app for film buffs.',
-      tech: ['Next.js', 'Typescript', 'React', 'TailwindCSS', 'Node.js', 'js-cookie', 'OMDb API'],
+      title: 'Pollyglot',
+      description: 'Pollyglot is a web-based translation application that allows users to translate text into French, German, or Spanish using OpenAI GPT-3.5 model.',
+      tech: ['Next.js', 'Javascript', 'Express', 'CSS', 'OpenAI', 'Vite'],
       imageUrl: '/filmue-1000-550.png',
-      codeUrl: 'https://github.com/k-dun/filmue',
-      liveUrl: 'https://www.filmue.vercel.app/',
+      codeUrl: 'https://github.com/k-dun/Pollyglot',
+      liveUrl: 'https://pollyglot-lake.vercel.app/',
     },
     {
       title: 'Filmue',
