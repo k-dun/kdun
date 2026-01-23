@@ -14,7 +14,7 @@ export default function Projects() {
     {
       title: 'Pollyglot',
       description: 'Pollyglot is a web-based translation application that allows users to translate text into French, German, or Spanish using OpenAI GPT-3.5 model.',
-      tech: ['Next.js', 'Javascript', 'Express.js', 'CSS', 'OpenAI'],
+      tech: ['Next.js', 'Javascript', 'Express.js', 'CSS', 'OpenAI API'],
       imageUrl: '/pollyglot-screenshot.png',
       codeUrl: 'https://github.com/k-dun/Pollyglot',
       liveUrl: 'https://pollyglot-lake.vercel.app/',
@@ -22,7 +22,7 @@ export default function Projects() {
     {
       title: 'TattooGem',
       description: 'Website for my local tattoo studio.',
-      tech: ['Next.js', 'Typescript', 'React', 'TailwindCSS', 'Node.js', 'Lovable', ],
+      tech: ['Next.js', 'Typescript', 'React', 'TailwindCSS', 'Node.js', 'Lovable'],
       imageUrl: '/tattoogemstudio-screenshot.png',
       codeUrl: 'https://github.com/k-dun/tattoo-gem-canvas',
       liveUrl: 'https://tattoo-gem-canvas.vercel.app/',
@@ -34,6 +34,14 @@ export default function Projects() {
       imageUrl: '/filmue-1000-550.png',
       codeUrl: 'https://github.com/k-dun/filmue',
       liveUrl: 'https://www.filmue.vercel.app/',
+    },
+    {
+      title: 'Studio One Bodega',
+      description: 'Website for my local barbershop.',
+      tech: ['Next.js', 'Typescript', 'React', 'TailwindCSS', 'Node.js', 'Lovable'],
+      imageUrl: '/tattoogemstudio-screenshot.png',
+      codeUrl: 'https://github.com/k-dun/tattoo-gem-canvas',
+      liveUrl: 'https://tattoo-gem-canvas.vercel.app/',
     },
     {
       title: 'Hoodlums',
