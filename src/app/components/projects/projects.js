@@ -4,16 +4,40 @@ export default function Projects() {
 
   const projects = [
     {
+      title: 'GH-Streaks',
+      description: 'Movie quiz web app for film buffs.',
+      tech: ['Next.js', 'Typescript', 'React', 'TailwindCSS', 'Node.js', 'js-cookie', 'OMDb API'],
+      imageUrl: '/filmue-1000-550.png',
+      codeUrl: 'https://github.com/k-dun/filmue',
+      liveUrl: 'https://www.filmue.vercel.app/',
+    },
+    {
       title: 'Filmue',
       description: 'Movie quiz web app for film buffs.',
       tech: ['Next.js', 'Typescript', 'React', 'TailwindCSS', 'Node.js', 'js-cookie', 'OMDb API'],
       imageUrl: '/filmue-1000-550.png',
       codeUrl: 'https://github.com/k-dun/filmue',
-      liveUrl: 'https://www.filmue.com/',
+      liveUrl: 'https://www.filmue.vercel.app/',
+    },
+    {
+      title: 'Filmue',
+      description: 'Movie quiz web app for film buffs.',
+      tech: ['Next.js', 'Typescript', 'React', 'TailwindCSS', 'Node.js', 'js-cookie', 'OMDb API'],
+      imageUrl: '/filmue-1000-550.png',
+      codeUrl: 'https://github.com/k-dun/filmue',
+      liveUrl: 'https://www.filmue.vercel.app/',
+    },
+    {
+      title: 'Filmue',
+      description: 'Movie quiz web app for film buffs.',
+      tech: ['Next.js', 'Typescript', 'React', 'TailwindCSS', 'Node.js', 'js-cookie', 'OMDb API'],
+      imageUrl: '/filmue-1000-550.png',
+      codeUrl: 'https://github.com/k-dun/filmue',
+      liveUrl: 'https://www.filmue.vercel.app/',
     },
     {
       title: 'Hoodlums',
-      description: 'Website for the digital art project: Hoodlums.',
+      description: 'Website for the digital art project: Hoodlums. (work in progress)',
       tech: ['Next.js', 'Javascript', 'React', 'TailwindCSS'],
       imageUrl: '/hoodlums-1000-550.png',
       codeUrl: 'https://github.com/k-dun/hoodlumsNFT',
